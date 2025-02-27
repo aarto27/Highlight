@@ -1,0 +1,51 @@
+.popup {
+    width: 700px;
+    margin: auto;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fbfbfb;
+    padding: 20px;
+    border: 1px solid #f59595;
+    border-radius: 10px;
+    box-shadow: 40px 41px 310px -90px rgba(255, 0, 0, 0.363);
+    z-index: 1;
+    font-size: 24px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.textarea {
+    box-sizing: border-box;
+    overflow: auto;
+    outline: none;
+    width: 99%;
+    height: 200px;
+    padding: 10px;
+    font-size: 22px;
+    border: 1px solid #f59595;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.remove {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.remove:hover {
+    background-color: darkred;
+}
